@@ -14,4 +14,16 @@
 
 	initImageChange();
 
+	//on scroll
+	$(window).on("scroll", function () {
+			if ($(window).scrollTop() >= $(".banner").outerHeight()+$(".test_dev_container").outerHeight()-($(".feature_container").outerHeight()/2)){
+				console.log($(".banner").outerHeight()+$(".test_dev_container").outerHeight());
+		 			$(".feature_container > ul > li >img").addClass("zoomin");
+			}else{
+				console.log($(".banner").outerHeight()+$(".test_dev_container").outerHeight());
+				$(".feature_container > ul > li >img").removeClass("zoomin");
+			}
+
+	});
+
 })();
