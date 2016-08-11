@@ -1,0 +1,39 @@
+header {
+  border-bottom: solid 1px #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 15px;
+  z-index: 1;
+  .logo_container {
+    h1 {
+      text-transform: uppercase;
+      color: #fff;
+      margin: 0px;
+      padding: 0px;
+      text-align: left;
+      font-weight: 700;
+    }
+  }
+  .right-menu {
+    text-align: right;
+    ul {
+      margin: 5px 0px 0px 0px;
+      padding: 0px;
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 15px;
+        a {
+          color: #fff;
+          font-weight: 500;
+          font-size: 20px;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

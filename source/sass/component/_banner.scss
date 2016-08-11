@@ -1,0 +1,18 @@
+.banner {
+  background-color: rgba(0,0,0,0.5);
+  height:80vh;
+  overflow: hidden;
+  > ul {
+    list-style: none;
+    padding: 0px;
+    > li {
+      float: left;
+      > a {
+        display: block;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

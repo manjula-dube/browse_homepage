@@ -1,0 +1,16 @@
+// header
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 14px;
+}
+.nopadding {
+  padding:0px !important;
+}
+@import "component/_header.scss";
+@import "component/_banner.scss";
+@import "component/_middle.scss";
+@import "component/_feature_container.scss";
+@import "component/_signup.scss";
+// Library
+@import "lib/_bootstrap.scss";
+//
